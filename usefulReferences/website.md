@@ -24,6 +24,7 @@
 
 # Source Type and Inspiration/References
 
+[Dribbble](https://dribbble.com/)
 [Behance](https://www.behance.net/)
 [Adobe Fonts](https://fonts.adobe.com/)
 [Google Fonts](https://fonts.google.com/)
@@ -35,6 +36,7 @@
 [Laura Coombs](http://lauracoombs.com/)
 [Insights Lecture Series](https://walkerart.org/insights-design-lecture-series)
 [Design Observer](https://designobserver.com/)
+[Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 
 ### Instagram
 
