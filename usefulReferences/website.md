@@ -20,6 +20,8 @@
 
 # Illustrator
 
+[Adobe Colour Palettes](https://color.adobe.com/)
+
 # Photoshop
 
 # Source Type and Inspiration/References
@@ -37,6 +39,7 @@
 [Insights Lecture Series](https://walkerart.org/insights-design-lecture-series)
 [Design Observer](https://designobserver.com/)
 [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+[UI Gradients](https://uigradients.com/)
 
 ### Instagram
 
