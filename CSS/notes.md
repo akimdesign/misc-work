@@ -131,3 +131,30 @@ An element can have a positive or negative stack order.
 - _**right:**_ Sets the right margin edge for a positioned box
 - _**top:**_ Sets the top margin edge for a positioned box
 - _**z-index:**_ Sets the stack order of an element
+
+# BEM Naming Syntax
+
+**Block**
+
+- a standalone entity that is meaningful on its own
+
+- class="card"
+
+**Element**
+
+- a part of a block that has no standalone meaning and is semantically tied to its block
+
+- class="card\_\_picture"
+- class="card\_\_title"
+- class="card\_\_description"
+- class="card\_\_button"
+
+**Modifier**
+
+- a flag on a block or element. Use them to change appearance or behaviour
+
+- class="card**button card**button--active"
+
+### _**designate element with block class name + 2 underscores**_
+
+### _**designate modifier with element and block class name + 2 dashes and space after first class name**_
