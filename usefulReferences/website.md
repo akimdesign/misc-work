@@ -26,6 +26,7 @@
 
 # Source Type and Inspiration/References
 
+[Figma](https://www.figma.com/)
 [Dribbble](https://dribbble.com/)
 [Behance](https://www.behance.net/)
 [Adobe Fonts](https://fonts.adobe.com/)
