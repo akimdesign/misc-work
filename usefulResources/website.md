@@ -41,6 +41,7 @@
 [Design Observer](https://designobserver.com/)
 [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 [UI Gradients](https://uigradients.com/)
+[Mr CutOut](https://www.mrcutout.com/)
 
 ### Instagram
 
