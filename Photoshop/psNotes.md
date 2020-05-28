@@ -10,7 +10,7 @@
 - sometimes Preview will open the files instead of PS so right click and click Open with PS
 
 - \***\*Adobe Bridge\*\*** --> File --> Open in Bridge
-- Content space has thumbnails for files (can change size of them at bottom of screen slider bar or click on a file and use [cmd +/-])
+- Content space has thumbnails for files (can change size of them at bottom of screen slider bar or click on a file and use [CMD +/-])
 - Can Drag and Drop folders to navigate to it --> make it fav location
 - For large screen preview of file
   - click on file
@@ -47,4 +47,16 @@
 
 ### Zoom page
 
-- [zoom in] cmd + [zoom out] cmd -
+- zoom in [CMD +] zoom out [CMD -]
+- fit to screen [CMD + 0]
+- to zoom 100% [CMD + 1]
+- zoom tool [Z] --> click on area you want to zoom in --> zoom out hold OPT key and click
+- **SHORTCUT switch btwn tools**
+  - zoom in CMD + spacebar and hold CMD or OPT + spacebar for zoom out
+- **Scrubby zooming** press and hold [Z] key and drag mouse **left** for zoom out and **right** for zoom in
+- **Marquee Zoom** press and hold [Z] key --> uncheck scrubby zoom at top menu --> make box around are you want to zoom to with mouse
+- to zoom with mouse --> OPT + scrollwheel
+
+#### Panning
+
+-
