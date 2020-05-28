@@ -59,4 +59,29 @@
 
 #### Panning
 
--
+**Hand Tool** [H]
+
+- temporary hand tool use **spacebar**
+- flick panning --> hold spacebar and then push/pull image in a flicking motion and it will fluidly move in that direction
+
+#### Other Scrolling Tricks
+
+**Bird's Eye View**
+
+- hold [H] key and click and hold mouse button --> select area you want to work on
+
+**Two Images Open [side-by-side]**
+
+- have 2 open tab files
+- go to **WINDOW** menu --> **ARRANGE** --> **2-up Vertical**
+  - to view 1 image again **WINDOW** menu --> **ARRANGE** --> **Consolidate All to Tabs**
+- to drag/pan both images at the same time SHIFT + SPACEBAR
+
+**Overscrolling**
+
+- to turn on -->Photoshop menu --> Preferences --> Tools --> check Overscroll box
+
+### Cycle Images
+
+- CTRL + TAB to move between image tabs [also CMD + ~]
+- reverse direction is CTRL + SHIFT + TAB
