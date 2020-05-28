@@ -1,10 +1,10 @@
 # Photoshop Notes
 
-### General
+## General
 
 - don't keep too many tabs/files open, uses a lot of memory and slows down computer
 
-### Opening Files
+## Opening Files
 
 - **.png .jpg .dng .psd .tiff** all open in Photoshop
 - sometimes Preview will open the files instead of PS so right click and click Open with PS
@@ -85,3 +85,19 @@
 
 - CTRL + TAB to move between image tabs [also CMD + ~]
 - reverse direction is CTRL + SHIFT + TAB
+
+### Screen Modes
+
+- standard screen mode [F] or button on bottom left of tool panel [screen icons] --> SHIFT + F for reverse cycle
+- full screen mode with menu bar --> no tabs or scroll bars visible, larger screen area
+- full screen mode --> no panels or menu but can still cycle through open tabs with CTRL + TAB--> press ESC to exit
+- to hide LEFT and RIGHT panels --> TAB
+- to hide RIGHT panels --> SHIFT + TAB
+
+### Navigator Panel
+
+- WINDOW menu --> NAVIGATOR [helm icon ]
+- you can drag the red box around the image to show a specific area
+- hold CMD key to zoom
+
+# Layers
