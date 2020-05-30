@@ -4,6 +4,7 @@
 
 - don't keep too many tabs/files open, uses a lot of memory and slows down computer
 - to switch colours in colour panel [bottom left][x] key
+- OPT + Click on group layer to see objects within it on screen
 
 ## Opening Files
 
