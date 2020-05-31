@@ -5,6 +5,16 @@
 - don't keep too many tabs/files open, uses a lot of memory and slows down computer
 - to switch colours in colour panel [bottom left][x] key
 - OPT + Click on group layer to see objects within it on screen
+  **Adjusting Canvas**
+- to expand canvas size to include image/design
+  - Image menu
+  - Reveal all
+- manually can be done too
+  - Image menu
+  - Canvas size
+  - click on relative
+  - add pixels needed
+  - can also change where to place them, i.e on grid click bottom right square[arrows point up and diagonally] to ensure pixels added to top and left side
 
 ## Opening Files
 
@@ -307,5 +317,50 @@ OPT + click to see mask layer
     - History will be gone, only lasts as long as your work session
 
 **Saving in PSD format**
+
+- Save As [SHIFT + CMD + S]
+- in save option box...
+- Layer box is checked on
+
+* Maximize Compatibility Option
+
+  - creates a flat layer that other programs can read
+  - not needed for Adobe programs so uncheck box for smaller file sizes
+  - no need to save like that unless trading files with Lightroom or Premiere
+
+    - to turn off
+    - go to Photoshop menu
+    - Preferences
+    - File Handling
+    - Maximize PSD and PSB[very very large imagery] file compatibility [Never]
+
+**Saving a flatprint image to TIFF**
+
+- TIFF stands for tag image file format
+- save as
+- drop down menu TIFF format
+- UNCHECK LAYERS BOX
+- save as copy fine b/c no layers
+- ICC Colour Profile on for consistent colour
+  - after clicking save new option box pops up
+  - TIFF supports lossless compression so nothing lost
+  - LZW option [checked]
+  - Save Image Pyramid [unchecked]
+  - Pixel Order [Interleaved]
+  - Byte Order [select PC or Mac but doesn't matter really]
+  - OK when done
+
+**Saving an interactive image to PNG**
+
+- Portable Network Graphics format [PNG] pronounced PING
+- popular for interactive design, mobile and web based images
+- supports full colour images, lossless compression; compression applied automatically unlike TIFF
+- can assign transparency as well
+  - save as
+  - no need to check any boxes like save as copy because no choice but to save it without layers anyway
+  - once you press save, new option box pops up
+  - choose file size/speed
+
+**Saving a flat photograph to JPEG**
 
 -
