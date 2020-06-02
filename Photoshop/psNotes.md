@@ -363,4 +363,15 @@ OPT + click to see mask layer
 
 **Saving a flat photograph to JPEG**
 
--
+- Joint Photographic Experts Group
+- ideally suited to archiving continuous-tone images such as photographs
+- it doesn't support layers.
+- it does support full-color images, it does not support transparency and it always applies some degree of lossy compression. Meaning that it rewrites the pixels and makes images much smaller
+  - FILE
+  - SAVE AS
+  - SAVE --> Option box pop up
+  - Quality Maximum [12]
+  - Baseline Optimized - lossless compression (smaller file size)
+  - OK
+
+# Brightness
