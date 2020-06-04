@@ -375,3 +375,35 @@ OPT + click to see mask layer
   - OK
 
 # Brightness
+
+- Photoshop sees Grey scale only luminance data
+
+  - darkest colour is black[shadows]
+  - lightest colour is white [highlights]
+  - shades in between are [midtones]
+
+- 3 channels of primary colour information
+
+  - red
+  - green
+  - blue
+
+- to begin adjusting a photo
+  - identify the brightest and darkest spots
+  - click on CHANNELS panel
+  - select eyedropper tool [i]
+    - to change cursor to crosshairs, click caps lock key
+  - click flyout menu on top of color panel
+  - select HSB[Hue/Saturation/Brightness] sliders
+  - you can see the percentage of shadows and highlights missing from the image by using crosshairs on lights and darkest spots
+  - limited range of luminance
+
+**Colour Corrector tools**
+
+- IMAGE menu
+- AUTO CONTRAST
+- corrects the missing percentages of light and dark very quickly
+
+  - Auto Tone
+  - Auto Contrast
+  - Auto Color
