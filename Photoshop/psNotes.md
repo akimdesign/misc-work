@@ -404,6 +404,8 @@ OPT + click to see mask layer
 - AUTO CONTRAST
 - corrects the missing percentages of light and dark very quickly
 
-  - Auto Tone
-  - Auto Contrast
-  - Auto Color
+### The Three Auto Commands
+
+- Auto Tone
+- Auto Contrast
+- Auto Color
