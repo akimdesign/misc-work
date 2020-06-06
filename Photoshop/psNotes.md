@@ -406,6 +406,28 @@ OPT + click to see mask layer
 
 ### The Three Auto Commands
 
-- Auto Tone
-- Auto Contrast
-- Auto Color
+- **Auto Tone:** finds the darkest pixel on a channel-by-channel basis and changes it to black and also finds the lightest pixel on a channel-by-channel basis and changes it to white. Colour cast is affected, i.e green tone removed from dollar bill, more reddish shadows
+
+- **Auto Contrast:** also looks at the darkest and lightest pixel but does it on a composite basis, not channel-by-channel. So it just finds the darkest pixel, makes it darker, the brightest pixel, and makes it brighter. Colour cast is maintained
+
+- **Auto Color:** It's going to take the darkest/brightest pixel on a channel-by-channel basis and make it black/white and neutralize it as well so that it doesn't have a color cast. And then it's going to try to find an exact mid-tone and make it neutral as well. And when I say neutral, I mean leech the color out of it so that it's grey
+
+  - all three of which look at the luminance data on a channel-by-channel basis and make changes automatically without even bringing up a dialogue box
+
+  - act differently for different photographs depending on the RGB layers within the image. Experiment with all 3 to see which produces the best result
+
+**Auto Brightness/Contrast**
+
+- can't use 2 of the Auto commands on one image, though it may seem like combining 2 will produce a nice result
+- instead, use an adjustment layer
+  - Image Menu
+  - Adjustments
+  - Brightness/Contrast
+  - dialogue box opens
+  - select Auto
+  - OK
+- sometimes the Auto Brightness/COntrast option goes too far and produces an awful result but you can adjust manually to correct it
+- also you can fade the affect
+  - Image menu
+  - Fade Brightness/Contrast
+  - Adjust Opacity value in dialogue box
