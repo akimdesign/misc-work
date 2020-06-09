@@ -1,5 +1,9 @@
 # Photoshop Notes
 
+# NEVER save over an original photograph file. Always use Save As
+
+## TURN OFF Maximize Compatibility when saving or files will be double in size/too large
+
 ## General
 
 - don't keep too many tabs/files open, uses a lot of memory and slows down computer
@@ -15,6 +19,8 @@
   - click on relative
   - add pixels needed
   - can also change where to place them, i.e on grid click bottom right square[arrows point up and diagonally] to ensure pixels added to top and left side
+
+SHIFT + RETURN to highlight first number to be adjusted in any adjustment panels
 
 ## Opening Files
 
@@ -431,3 +437,59 @@ OPT + click to see mask layer
   - Image menu
   - Fade Brightness/Contrast
   - Adjust Opacity value in dialogue box
+
+**Custom Brightness/Contrast**
+
+- modify luminance levels in jpg
+- Image Menu
+- Adjustments--> Brightness/Contrast
+- click Auto in dialogue box and then make any more adjustments if you would like
+- DO NOT use LEGACY - old adjustment levels not very good
+
+**Dynamic Adjustment Layer**
+
+- use a layer to make changes instead of making them to original image --> easier to adjust and mistakes won't affect original
+- known as non-destructive modification layers
+  - 2 ways to apply them
+    1.  circle icon [b&w]at bottom of layers panel and select from second section of menu
+    2.  Window menu -->Adjustments --> panel opens on right side
+    - icons instead of menu but same order
+
+Tips and Tricks
+
+- you can open a saved image and change the adjustments you made in HISTORY panel
+- click on icon with plus sign at bottom of History panel and you can create a new document from current state of image
+- opens image in new tab
+
+To Name Layer while you create it [3 ways]
+
+1. Layer Menu --> New Adjustment Layer --> Brightness/Contrast and an option box pops up where you can name layer
+2. Adjustments panel --> instead of clicking on Bright/Contrast icon --> OPT + Click --> Name layer in option box
+3. Hold OPT key --> Click on b&w circle icon at bottom of layers panel --> drag up to Bright/Contrast --> Name layer in option box
+
+SHIFT + RETURN to highlight first number value to be adjusted in any adjustment panels
+
+# Adjustment Layers and Blend mode
+
+**Blend mode** found in layers panel drop down menu
+
+- Normal is default setting
+- preview on the fly so you can hover and see changes on your image before applying it
+- **4 important blend modes**
+
+  - use **Multiply** not Darken to make image darker --> offers smoother results in dark options
+  - use **Screen** not Lighten to make image lighter --> best option in the brightening group of options
+  - **Overlay** best in the Contrast[3rd] group, increases images contrast
+  - use Opacity to tone down some enthusiasm of the adjustment layer
+  - **Luminosity** best to use to adjust luminosity, not colour when Bright/Cont affects colour
+
+Lesson info
+
+- double click on adjusted layer to bring up option box
+- make brightness and contrast 0
+- will adjust image using blend mode instead
+- when using blend modes, you are using the image to do something to itself
+
+# Histogram
+
+-
