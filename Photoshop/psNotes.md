@@ -19,6 +19,7 @@
   - click on relative
   - add pixels needed
   - can also change where to place them, i.e on grid click bottom right square[arrows point up and diagonally] to ensure pixels added to top and left side
+- eyedropper tool[I] or caps lock key for crosshair cursor for more accurate colour choosing
 
 SHIFT + RETURN to highlight first number to be adjusted in any adjustment panels
 
@@ -491,5 +492,78 @@ Lesson info
 - when using blend modes, you are using the image to do something to itself
 
 # Histogram
+
+- is a column graph of luminance levels inside your image from black on the left to white on the right
+- Window menu
+- Histogram show up on right panel above layers
+- click on hamburger menu and choose expanded view
+- switch channel from COLORS to LUMINOSITY to see luminance levels from black[left] to white[right]
+- you do not want to see clipping in histogram
+
+  - spike at the beginning of the graph[left] means you have clipping in the black area which are the shadows
+  - spike on right side[white] then you have blown highlights in the image
+  - if you have clipping on both sides, clipped shadows and clipped highlights
+  - ideally should look like a mountain range with some nice soft foothills at either end
+
+- you can update Histogram after you adjust by clicking the caution triangle on top right of graph
+- you can check the different channels --> RGB
+
+  - if there are gaps in the graph, pixels are missing at that specific luminance level [normal so don't worry unless there are too many --posterization]
+
+**Isolate an adjustment with a layer mask**
+
+- Turned off Automatic Adjustment Layers earlier
+- Window --> Adjustments --> menu on right panel --> Add Mask by Default
+- better off not to use it this way, you can paint mask off using brush tool and black/white
+
+- now when you create an Adjustment Layer, it will not include the Layer Mask --> good
+- if you do want to add a layer mask later --> click on icon at bottom of layers panel [white rectangle with hole in it]
+
+* to convert a Selection Outline Tool to a Layer Mask on the fly
+  - click and hold on Object Selection tool --> Select Quick Selection Tool
+  - adjust size if needed
+  - paint all around object to select background
+  - to make the adjustment layer and name it --> hold Option and click adjustment icon
+  - you can now adjust background brightness or other options without affecting main object
+  - to feather the edge of the mask, in adjustment panel click on the mask icon and then adjust feather with slider in properties panel
+
+# Balance
+
+**Colour Cast VS Colour Harmony**
+
+- identify the colour cast of a photo to correct
+- do this by checking with the eyedropper tool [I]
+- click and hold on an area of image --> new foreground colour on top of circle, old foreground colour on bottom
+- look at COLOR menu on right panel
+- click menu and select HSB sliders to see Hue, Saturation and Brightness values
+- you can see which colour is cast over image--> you will want to take it in the complete opposite direction i.e cyan to red
+
+**Correcting Colour Cast Automatically**
+
+- Eyedropper tool to find a neutral colour
+- use Auto Tone, Auto Color to see what Photoshop does automatically
+  - sometimes not much difference or it doesn't work well so you need to adjust manually
+- so try Colour Balance command
+
+**Colour Balance**
+
+- passes off as being easy but can be challenging
+  - Image Menu
+  - Adjustments
+  - Colour Balance
+  - dialogue box with options pops up --> 3 sliders with cyanto red, magenta to green, yellow to blue.
+  - move sliders away from the dominant colour --> goal is to extract that colour to balance the image
+  - pay attention to the percentages of HSB on right panel --> goal is to lower the saturation/ highlights and move colour away from dominant cast
+
+Last Applied Settings
+
+- if you choose colour balance option again, options will all be at 0 again. If you need to change something, you need to access the last applied settings
+  - create a copy of the original image by OPT + Drag to top of layers
+  - hold OPT key --> Image menu --> Adjustments --> Colour Balance
+  - old settings will now be displayed
+  - you can now readjust the balance on the copied image
+  - then you can toggle layer off and on to see the previous adjustments to see if image is improved
+
+**Correcting White Balance in Camera RAW**
 
 -
