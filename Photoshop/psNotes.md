@@ -22,6 +22,7 @@
 - eyedropper tool[I] or caps lock key for crosshair cursor for more accurate colour choosing
 
 SHIFT + RETURN to highlight first number to be adjusted in any adjustment panels
+SHIFT + F to see image in full screen
 
 ## Opening Files
 
@@ -566,4 +567,63 @@ Last Applied Settings
 
 **Correcting White Balance in Camera RAW**
 
--
+- click on Camera Raw layer in layers panel [if you have different layers]
+- go to FILTER menu --> Camera RAW Filter
+- you can use the same HSB sliders as in Colour Balance but they are much more effective in RAW format
+- instead of the sliders, there is another option
+
+  - in top menu bar there is an icon for the White Balance Tool [shortcut of I like eyedropper tool but only used in Camera RAW filter box]
+  - purpose of this tool is different, it isn't sampling a colour the way the eyedropper tool does
+  - it is setting a point of neutrality
+  - to choose a neutral point, you shouldn't click on an area that is dark nor light
+  - you want to find a light grey within the image
+  - you can click on a spot but you can also drag the tool to create a marquee on a small area and take all those pixels into consideration
+
+- sometimes image gets brightened up too much when adjusting/ washed out
+- to fix it go to EDIT menu
+- select the Fade Camera RAW Filter to back off the adjustments slightly
+- you don't want to affect Opacity at this point or the colour cast will come back
+- change the mode in drop down menu --> Colour
+- will darken image back up again and affect colours not luminance level
+
+**When Camera RAW disappoints**
+
+- if you have used Camera Raw Filter in the same sitting as a new image, do not select it when you are working on a new image. It will place the same adjustments on the image as the last one you were working on.
+- Filter Menu
+- Camera Raw Filter ... [use one with 3 dots]
+- use eyedropper tool and select a small area where you think is neutral
+- adjust sliders to suit
+  - to preview previous image settings [original] press the P key [preview] in the filter view
+- not the best edit to the image...other ways
+
+**Adjusting a Colour Cast with Photo Filter**
+
+- Opt + click on b&w circle at bottom of layers panel to make a new adjustment layer
+- select colour balance and name layer
+- adjust colour balance away from dominant colours i.e if image is blueish, move from cyan to red
+- adjust sliders in all 3 Tones : Highlights/Midtones/Shadows
+
+- need to use a photo filter to correct
+- use eyedropper and find colour value you want to defeat
+- add another adjustment layer by using OPT + layer icon and select Photo Filter
+  - once you know you degree for the hue, you will choose the colour option in the dialogue box, input your H value and then +/- 180 to get the opposite colour to defeat dominant colour
+  - if value is smaller than 180 degrees you + 180
+  - if value is larger than 180 you -180
+  - do math right in the H box and photoshop will calculate value
+
+**Applying Auto Colour Nondestructively**
+
+- Opt + click and add new adjustment layer and name
+- select Levels
+- you will see a histogram in the properties panel
+- click on burger menu
+- Auto Options
+  or
+- Click OPT + Auto button
+- 4 algorithms options
+- each one is one of the Auto options, hover over them to see which one
+- for image in lesson, select Find Dark and Light Colours
+- also check box Snap Neutral Midtones
+- also clip some highlights to brighten--> up to 1%
+- click on Midtones swatch and adjust until content
+- DO NOT CLICK SAVE AS DEFAULT
