@@ -627,3 +627,53 @@ Last Applied Settings
 - also clip some highlights to brighten--> up to 1%
 - click on Midtones swatch and adjust until content
 - DO NOT CLICK SAVE AS DEFAULT
+
+# Cropping
+
+- use crop tool to cut image to desired size and shape. Sometimes it is better to take a photo far away in order to resize and crop image to your liking later on
+
+- Crop tool without deleting pixels (non-destructive)
+
+  - when using crop tool, uncheck box at the top of the menu that says "Delete Cropped Pixels"
+  - you can go back later and adjust crop if something is off
+
+- You can rotate the image if the horizon isn't straight or if the photo was taken at an incorrect angle
+
+  - hover near crop corners and look for curved arrow, rotate to your needs
+  - when you rotate, it is destructive, all pixels are re-written when image rotated
+
+- you can use move tool to move image within cropped boundaries if you need to adjust
+
+- press and hold spacebar while dragging crop tool to move the marquee
+
+**Aspect Ratio**
+
+- if you shift click and drag crop, it will flip and go from vertical to horizontal and visa versa
+- can also select predefined ratios on the top menu drop down menu
+- if the ratio selected is in the incorrect layout, there is a swap button on same top menu
+- if you want to abandon the aspect ratio selection, just click on clear on top menu
+
+- different grid patterns available for the crop selection
+
+  - rule of 1/3 (default)
+  - golden ratio
+  - normal grid lines [helpful to determine if image is crooked or not]
+  - many more
+
+- change settings in grid format to **Auto Show Overlay**
+
+  - fades the background/cropped area outside until you move crop selection
+  - easier to visualize the cropped final image
+
+- if you always want image to stay centred on screen while moving the crop selection
+
+  - go to settings icon at top
+  - turn off **Auto Center Preview**
+
+- **reference point** is the centre of any rotation you apply to an image
+  - DEFAULT point of reference is centre
+  - hold OPT key and you can see small arrows
+  - OPT + click on an area to set the new rotation point of reference
+  - to make reference point visible
+    - EDIT menu --> Preferences --> Tools
+    - check box that says **Show Reference Point when using Transform**
