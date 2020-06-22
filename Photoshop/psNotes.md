@@ -675,5 +675,20 @@ Last Applied Settings
   - hold OPT key and you can see small arrows
   - OPT + click on an area to set the new rotation point of reference
   - to make reference point visible
-    - EDIT menu --> Preferences --> Tools
+    - Photoshop menu --> Preferences --> Tools
     - check box that says **Show Reference Point when using Transform**
+
+**Finessing a Crop with Canvas Size**
+
+- when cropping and there are areas left with the transparent background due to rotation
+- CMD + K to open General Preferences Panel
+- Units and Rulers
+- change Rulers to Pixels
+- switch to [M] rectangle marquee tool
+- measure height value of area to be fixed and add them up
+- go to IMAGE menu
+- click on Canvas Size
+- turn on Relative check box
+- add in number from top height and click bottom dot on the diagram
+- click okay and it will crop the top section of the image
+- do the same for the bottom but click on top dot to crop from bottom
