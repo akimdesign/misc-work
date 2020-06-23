@@ -692,3 +692,11 @@ Last Applied Settings
 - add in number from top height and click bottom dot on the diagram
 - click okay and it will crop the top section of the image
 - do the same for the bottom but click on top dot to crop from bottom
+
+**Content Aware Cropping**
+
+- instead of cropping transparent areas with manual calculations as above, content aware does it automatically
+- content aware very good at filling sky but not so much with rock or other very identifiable objects
+- turn off delete cropped pixels
+- make sure content aware box is checked on
+- press enter when happy with crop area
