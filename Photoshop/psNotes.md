@@ -700,3 +700,49 @@ Last Applied Settings
 - turn off delete cropped pixels
 - make sure content aware box is checked on
 - press enter when happy with crop area
+
+**Straighten Tool**
+
+- photo should always have a straight and horizontal horizon
+- "Straighten" icon on the top menu bar
+- click it and you will have a cursor that looks like a level/ruler
+- click and drag across your horizon line and make a line following it
+- you will see the degree measurement and when you release your mouse, photo will rotate on its own to correct horizon
+- make sure content aware is clicked off if you want Photoshop to automatically crop the largest size image when straightened without showing transparent background
+
+- shortcut to use Straighten tool
+- select crop tool then click CMD and HOLD
+- drag line to straighten
+- use content aware to fill in transparent pixels
+
+**Ruler Tool to Straighten**
+
+- it doesn't crop the image at all. So it's going to leave behind those transparent wedges in the corners, which is why I'm going to show you how to exactly crop those corners away to maintain the largest possible rectangle using the canvas size command.
+
+- select ruler tool in eyedropper menu
+- do same thing as straighten tool, click and drag across horizon line
+- does not rotate image when you release mouse button, you can adjust your line
+- angle is displayed on top menu/options bar
+- you can also zoom in or out to look at horizon line more carefully
+- select **Straighten Layer** at top when done
+- pixels not deleted, you can check by right clicking on the layer and Select Pixels
+- shows pixels outside of canvas area
+
+**Cropping away transparent pixels**
+
+- continue from above instructions
+- zoom in to full size using CMD + 1
+- use hand tool [H] and click and hold to zoom into area with pixels
+- select marquee tool [M]
+- measure height value of transparent pixel area and note it, check other areas too
+- check width areas, note them
+- go to Canvas size in the Image menu
+- check Relative on
+- add in values you noted and multiply by 2 [because 2 widths and heights need to be removed for transparent areas], i.e -184* 2 W and -120* 2 H
+- keep anchor point centred because cropping all sides
+- to double check crop, right click on layer and choose Select Pixels to see area that was cropped away
+
+**Crop and Straighten in Camera Raw**
+
+- Open in bridge then right click on image and select Open in Camera Raw
+-
