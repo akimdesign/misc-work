@@ -745,4 +745,13 @@ Last Applied Settings
 **Crop and Straighten in Camera Raw**
 
 - Open in bridge then right click on image and select Open in Camera Raw
+- you can straighten and crop images here before adjusting in Photoshop
+- same tools available
+- straighten tool [A]
+- double click to straighten image automatically
+- doesn't allow transparent corners when cropping
+
+**Perspective Crop Tool**
+
+- allows you to take 2D artwork that's captured in perspective and remove all perspective
 -
