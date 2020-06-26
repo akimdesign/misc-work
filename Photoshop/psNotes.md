@@ -754,4 +754,16 @@ Last Applied Settings
 **Perspective Crop Tool**
 
 - allows you to take 2D artwork that's captured in perspective and remove all perspective
+- click and hold on Crop Tool and selece Perspective Crop
+- 2 ways to use the tool
+  - click and drag rectangle on image and then move points to match perspective
+  - click points on image to make rectangle
+  - OPT + Drag on points or lines to move points away from edge of image so you can include some background
+
+**Cropping everything outside the canvas**
+
+- to uncrop an image to see all layers go to Image menu --> Reveal All
+- Select Menu --> All [CMD + A]
+- Image Menu --> Crop
+- Removes everything outside the canvas size [destructive]
 -
