@@ -20,6 +20,7 @@
   - add pixels needed
   - can also change where to place them, i.e on grid click bottom right square[arrows point up and diagonally] to ensure pixels added to top and left side
 - eyedropper tool[I] or caps lock key for crosshair cursor for more accurate colour choosing
+- to reset any tool to its default setting, go to its icon[top of menu when you select it] and right click and select "Reset Tool" or "Reset All Tools" depending on what you want to do
 
 SHIFT + RETURN to highlight first number to be adjusted in any adjustment panels
 SHIFT + F to see image in full screen
@@ -766,4 +767,14 @@ Last Applied Settings
 - Select Menu --> All [CMD + A]
 - Image Menu --> Crop
 - Removes everything outside the canvas size [destructive]
--
+
+# Painting
+
+**Brush Tool**
+
+- paintbrush icon in left side menu
+- options box at top allows you to change the size of brush, type of brush and the hardness
+- if your brush is "lumpy" with the default settings
+  - go to Window menu
+  - Brush Settings
+  -
