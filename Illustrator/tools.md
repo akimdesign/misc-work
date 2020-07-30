@@ -21,3 +21,14 @@
 ## Blending Mode
 
 - explore and use for drawings -->transparency layer to adjust blend and reset spine to follow along a chosen path
+
+## Type Tool
+
+- to adjust kerning between letters
+  - use OPT + arrows to adjust kerning 1 point at a time
+  - allows you to customize kerning between letters without using the kerning drop down which affects all letters
+
+## Eraser Tool
+
+- to erase part of an object, select that object and then eraser tool to erase.
+- doing this will not affect other objects that may be overlapping selected object
